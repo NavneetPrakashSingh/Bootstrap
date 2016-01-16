@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Carousel</title>
+	<link href='css/bootstrap.css' rel='stylesheet'>
+</head>
+<body>
+	<div class="container">
+		<div class="carousel slide"
+			 data-ride="carousel" 
+			 id="carousel-ex">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-ex"
+				    data-slide-to="0"
+				    class="active"></li>
+				<li data-target="#carousel-ex"
+				    data-slide-to="1"
+				    ></li>
+				<li data-target="#carousel-ex"
+				    data-slide-to="2"
+				    ></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="red.png" alt="Red">
+					<div class="carousel-caption">
+						<h2>This is red heading</h2>
+						<p>This is red paragraph</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="yellow.png" alt="Yellow">
+					<div class="carousel-caption">
+						<h2>This is yellow heading</h2>
+						<p>This is yellow paragraph</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="orange.png" alt="Orange">
+					<div class="carousel-caption">
+						<h2>This is orange heading</h2>
+						<p>This is orange paragraph</p>
+					</div>
+				</div>
+				<a href="#carousel-ex" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#carousel-ex" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+</script>
+<script src='js/bootstrap.js'></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.navbar-custom {
+    border-color: transparent;
+    background-color: #34495e;
+}
+
+.mya{
+	color:white;
+}
+
+
+ul.nav a:hover { color: #fff !important; }

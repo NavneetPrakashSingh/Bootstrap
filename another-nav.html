@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href='boot/min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="mycss/another-css.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">WL<!-- <img src="logo.png" alt="mm"> --></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="another-nav.html#features">Features <span class="sr-only">(current)</span></a></li>
+        <li><a href="another-nav.html#reviews">Reviews</a></li>
+
+       <!--  <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+         <ul class="dropdown-menu" role="menu">
+           <li><a href="#">Action</a></li>
+           <li><a href="#">Another action</a></li>
+           <li><a href="#">Something else here</a></li>
+           <li class="divider"></li>
+           <li><a href="#">Separated link</a></li>
+           <li class="divider"></li>
+           <li><a href="#">One more separated link</a></li>
+         </ul>
+       </li> -->
+
+      </ul>
+    
+      <ul class="nav navbar-nav navbar-right">
+		<li>
+	      	<button class="btn btn-primary navbar-btn"
+					type="button"
+					data-toggle="modal"
+					data-target="#signup"
+			><span class="glyphicon glyphicon-user" ></span> Sign Up
+			</button>
+		</li>
+		<li>
+	      	<button class="btn btn-primary navbar-btn"
+					type="button"
+					data-toggle="modal"
+					data-target="#login"
+			><span class="glyphicon glyphicon-log-in" ></span> Login
+			</button>
+		</li>
+        
+     
+      
+    
+      </ul>
+    </div>
+  
+  </div>
+</nav>
+
+
+<!-- signup model -->
+  <div class="modal fade" id="signup">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Sign Up</h4>
+      </div>
+      <div class="modal-body">
+        	<!-- signup form begins here -->
+        <form action="">
+		<form class="form-horizontal">
+		  <fieldset>		    
+		    <div class="form-group">
+		      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+		      <div class="col-lg-10">
+		        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+		      </div>
+		    </div>
+		    <div class="form-group">
+		      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+		      <div class="col-lg-10">
+		        <input type="password" class="form-control" id="inputPassword" placeholder="Password">		       
+		      </div>
+		    </div>
+		     <div class="form-group">
+		      <label for="confirmPassword" class="col-lg-2 control-label">Confirm Password</label>
+		      <div class="col-lg-10">
+		        <input type="password" class="form-control" id="confirmPassword" placeholder="Password">		       
+		      </div>
+		    </div>
+		   
+		    <div class="form-group">
+		      <div class="col-lg-10 col-lg-offset-2">
+		        <button type="reset" class="btn btn-default" data-dismiss="modal">Cancel</button>
+		        <button type="submit" class="btn btn-primary">Submit</button>
+		      </div>
+		    </div>
+		   
+		  </fieldset>
+		</form>
+        </form>
+
+
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+<!-- login model -->
+  <div class="modal fade" id="login">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Sign Up</h4>
+      </div>
+      <div class="modal-body">    
+        	<!-- login form begins here -->
+        <form action="">
+		<form class="form-horizontal">
+		  <fieldset>		    
+		    <div class="form-group">
+		      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+		      <div class="col-lg-10">
+		        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+		      </div>
+		    </div>
+		    <div class="form-group">
+		      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+		      <div class="col-lg-10">
+		        <input type="password" class="form-control" id="inputPassword" placeholder="Password">		       
+		      </div>
+		    </div>		   
+		    <div class="form-group">
+		      <div class="col-lg-10 col-lg-offset-2">
+		        <button type="reset" class="btn btn-default" data-dismiss="modal">Cancel</button>
+		        <button type="submit" class="btn btn-primary">Submit</button>
+		      </div>
+		    </div>
+		   
+		  </fieldset>
+		</form>
+        </form>
+
+
+      </div>
+   
+    </div>
+  </div>
+</div>
+
+<div class="splash">
+	<div class="container">
+		
+		<div class="row">
+			<img src="symbol.png" alt="Word List" border="0" >
+		</div>
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="splashh1">Word List </h1>
+			</div>
+			<div class="col-lg-12">
+				<h2 class="splashh2">We aim to improve your vocabulary in the best way possible</h2>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Hello,</h1>
+			
+			<h4>Are you planning to improve your vocabulary or preparing for exams like SAT, GRE that requires intensive use of your vocabulary, then we have the right tool for you !</h4>
+			<hr>
+			<h4>Word list is a vocabulary enhancement app that aims to improve your vocabulary in the best way possible through self assessment quizzes, favorite list, random words, pie chart analysis and tons of amazing features.</h4>
+			<hr>
+			<h4> All the features are avaiable at free of cost and can be downloaded from windows phone store and google play store</h4>
+
+			<div class="row">
+				<h3 class="text-center">Download Now !</h3>
+			</div>
+			<div class="container container-table">
+    		<div class="row text-center">
+						<div class="col-md-4 col-md-offset-4">
+						<ul class="list-inline">
+							<li>
+									<a href="https://www.microsoft.com/store/apps/9wzdncrdhg7w?ocid=badge"><img class="center-block" src="https://assets.windowsphone.com/8d997df3-5b6e-496c-88b3-e3f40117c8fd/English-get-it-from-MS_InvariantCulture_Default.png" srcset="https://assets.windowsphone.com/0100c7e5-1455-40bc-a351-b77d2801ad5a/English_get-it-from-MS_InvariantCulture_Default.png 2x"  alt="Get it from Microsoft" /></a>
+							</li>
+
+							<li>
+									<a href="https://play.google.com/store/apps/details?id=org.wordlist.navneet.wordapplication&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="center-block googleimg" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" /></a>
+							</li>
+						</ul>
+					</div>
+			</div>
+			</div>
+
+	
+		</div>
+	</div>
+
+<div class="container" id="features">
+	<div class="row">
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		    <h2>Features of Word List</h2>
+		  </div>
+</div>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+				<div class="panel panel-success">
+				  <div class="panel-heading">
+
+				    <h3 class="panel-title">Offline Dictionary</h3>
+				 </div>
+				 <div class="panel-body">
+				   <p>We have added some of the most common words used in everyday life to the offline feature of our app, so that you can parse words even without an internet connection. We have also provided the power to favourite a word and add it to the quiz and take a self assessment quiz.</p>
+				   <button class="btn btn-success"><a href=""><span class="white">Learn more</span></a></button>
+				 </div>
+				</div>
+		</div>
+
+	<div class="col-md-4">
+		 <div class="panel panel-primary">
+		  <div class="panel-heading">
+		    <h3 class="panel-title">Add words to your list</h3>
+		 </div>
+		 <div class="panel-body">
+		    <p>If you are preparing for SAT or GRE, often you need to create your own list of words which are commonly asked and you can refer to them as and when you want to. Keeping that feature in mind we have come up with add words feature, which gives user the power to add their own words list.</p>
+		    <button class="btn btn-primary"><a href=""><span class="white">Learn more</span></a></button>
+		 </div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+	 <div class="panel panel-info">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">New Words everyday</h3>
+	 </div>
+	 <div class="panel-body">
+		    <p>In this feature user is updated with new words every 24 hours along with its meaning and sentence. A push notification is send to all devices in which the app is installed and its useful for anybody who wants to expand their vocabulary. <hr> </p>
+		    <button class="btn btn-info"><a href=""><span class="white">Learn more</span></a></button>
+		 </div>
+	</div>
+		</div>
+
+		<div class="col-md-4">
+	 <div class="panel panel-warning">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Words on tile(WP)</h3>
+	 </div>
+	 <div class="panel-body">
+		    <p>This feature is available for windows phone only, it gives users the power to learn a new word without opening the app. Word is displayed on the live tile and when the tile flips the meaning and sentence is displayed. A new word is displayed every time user enters the app.</p>
+		    <button class="btn btn-warning"><a href=""><span class="white">Learn more</span></a></button>
+		 </div>
+	</div>
+		</div>
+
+		<div class="col-md-4">
+	 <div class="panel panel-primary">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Random Words</h3>
+	 </div>
+	 <div class="panel-body">
+		    <p>This is an interesting feature that generates a new word from the web and displays it in the app. A random word from the web appears, if you know the meaning you can look for the next word, in case you don't then add it to your list and parse it later as you require.</p>
+		    <button class="btn btn-primary"><a href=""><span class="white">Learn more</span></a></button>
+		 </div>
+	</div>
+		</div>
+
+		<div class="col-md-4">
+	 <div class="panel panel-danger">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Efficient search mechanism</h3>
+	 </div>
+	 <div class="panel-body">
+		    <p>When you search for a word its meaning and sentence is displayed along with origin and rhyming words. Using the concept of web mining this feature is made as powerful as possible, so as to provide you with best experience as possible. We have also integrated the app with cortana.</p>
+		    <button class="btn btn-danger"><a href=""><span class="white">Learn more</span></a></button>
+		 </div>
+	</div>
+		</div>
+
+		<div class="col-md-4">
+	 <div class="panel panel-success">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Search meaning of words from images</h3>
+	 </div>
+ <div class="panel-body">
+		    <p>Image search is a powerful feature that gives the user the power to search for meaning of words from within the images. Using OCR user just have to click the image and extreact the text from the image, once text is extracted, user have to click on the word to know its meaning.</p>
+		    <button class="btn btn-success"><a href=""><span class="white">Learn more</span></a></button>
+		 </div>
+	</div>
+		</div>
+
+		<div class="col-md-4">
+	 <div class="panel panel-primary">
+	  <div class="panel-heading">
+	    <h3 class="panel-title">Pie chart anaysis</h3>
+	 </div>
+	  <div class="panel-body">
+		    <p>Pie chart analysis gives user the ability to analyse their self assessment quizzes, as a pie chart of quizzes taken from all the alphabets appear and user monitor which all alphabets needs more work and which all require less.<hr></p>
+		    <button class="btn btn-primary"><a href=""><span class="white">Learn more</span></a></button>
+		 </div>
+	</div>
+		</div>
+	</div>
+	
+
+<div class="row" id="reviews">
+		<div class="panel panel-default">
+		  <div class="panel-body">
+		    <h2>User's testimonials</h2>
+		   </div>
+		</div>
+	</div>
+
+<div class="container">
+	<div class="panel">
+		<div class="carousel slide"
+			 data-ride="carousel" 
+			 id="carousel-ex">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-ex"
+				    data-slide-to="0"
+				    class="active"></li>
+				<li data-target="#carousel-ex"
+				    data-slide-to="1"
+				    ></li>
+				<li data-target="#carousel-ex"
+				    data-slide-to="2"
+				    ></li>
+				    <li data-target="#carousel-ex"
+				    data-slide-to="3"
+				    ></li>
+				    <li data-target="#carousel-ex"
+				    data-slide-to="4"
+				    ></li>
+				    <li data-target="#carousel-ex"
+				    data-slide-to="5"
+				    ></li>
+				    <li data-target="#carousel-ex"
+				    data-slide-to="6"
+				    ></li>
+				    <li data-target="#carousel-ex"
+				    data-slide-to="7"
+				    ></li>
+				    <li data-target="#carousel-ex"
+				    data-slide-to="8"
+				    ></li>
+				    <li data-target="#carousel-ex"
+				    data-slide-to="9"
+				    ></li>
+				    <li data-target="#carousel-ex"
+				    data-slide-to="10"
+				    ></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="reviewImg/01.png" alt="Red">
+					<!-- <div class="carousel-caption">
+						<h2>This is red heading</h2>
+						<p>This is red paragraph</p>
+					</div> -->
+				</div>
+				<div class="item">
+					<img src="reviewImg/0.png" alt="Yellow">					
+				</div>
+				<div class="item">
+					<img src="reviewImg/00.png" alt="Yellow">					
+				</div>
+				<div class="item">
+					<img src="reviewImg/1.png" alt="Yellow">					
+				</div>
+				<div class="item">
+					<img src="reviewImg/2.png" alt="Yellow">					
+				</div>
+				<div class="item">
+					<img src="reviewImg/3.png" alt="Yellow">					
+				</div>
+				<div class="item">
+					<img src="reviewImg/4.png" alt="Yellow">					
+				</div>
+				<div class="item">
+					<img src="reviewImg/5.png" alt="Yellow">					
+				</div>
+				<div class="item">
+					<img src="reviewImg/6.png" alt="Yellow">					
+				</div>
+				<div class="item">
+					<img src="reviewImg/7.png" alt="Yellow">					
+				</div>
+				<div class="item">
+					<img src="reviewImg/8.png" alt="Yellow">					
+				</div>
+				
+				<a href="#carousel-ex" class="left carousel-control" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#carousel-ex" class="right carousel-control" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="">
+<footer class="takenote-footer clearfix">
+	<h3>Meet Us !</h3>
+	<section>
+		<a href="">
+			<img width="60" height="60" src="img/fb.png" alt="facebook_Image">
+		</a>
+			<a href="">
+			<img width="60" height="60" src="img/tw.png" alt="facebook_Image">
+		</a>
+	</section>
+</footer>
+<footer class="site-footer">
+	<div class="container">
+		<p> Copyright © 2016 | Navneet Singh </p>
+	</div>
+</footer>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+</script>
+<script src='js/bootstrap.js'></script>
+</body>
+</html>
